@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(68.15deg, #028002 16.62%, #a79c06 85.61%);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 29px;
+  
+}
+
+li{ display: inline-block;
+    font-family: arial;
+    margin: 22px;
+    font-weight: bold;
+    list-style-type: none;
+    
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+
+    color: #00ff00;
+    transition: 0.3s all;
+}
+
+#ja-te-uma-conta-btn{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#ja-te-uma-conta-btn:hover{
+    background-color: #028002;
+    color: white;
+    transition: 0,3s all;
+}
+
+h1{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 20px;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+    line-height: 9px;
+    font-family: Arial;
+    font-weight: bold;
+    font-weight: 200;
+}
+
+span{
+
+    font-family: Arial;
+    font-size: 42px;
+    font-weight: 550;
+    color: black;
+}
+
+p{
+    line-height: 20px;
+    color: white;
+    max-width: 500px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: justify;
+}
+
+img{
+    width: 710px;
+    margin-left: 19px;
+    margin-top: 5px;
+    
+}
+
+form{
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #a79c06;
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 20px;
+    height: 13px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
